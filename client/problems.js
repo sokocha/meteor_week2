@@ -1,0 +1,1 @@
+Problems = new Meteor.Collection('problems');

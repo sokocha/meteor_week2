@@ -1,0 +1,10 @@
+<template name="problemsAll">
+  <div class = "main-heading-problems">
+    <h1>Problems</h1>
+  </div>
+  <div class = "text-center">
+    {{#each problems}}
+      {{> problemItem}}
+    {{/each}}
+  </div>
+</template>
